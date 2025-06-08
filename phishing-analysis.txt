@@ -1,0 +1,16 @@
+Phishing Email Analysis – Task 2
+
+Sender: support@amaz0n-secure.com
+Subject: URGENT: Your Amazon Account is Suspended
+
+Findings:
+- The sender's domain is fake and not the official Amazon domain.
+- Uses urgency and fear tactics to manipulate the recipient.
+- Hyperlink leads to a suspicious domain (amazon-secure-login.com) instead of the real amazon.com.
+- Attachment appears to be a PDF but is actually an executable file (.exe).
+- Greeting is generic (“Dear Customer”).
+- There are spelling and grammar issues in the message.
+- Return-Path and Reply-To headers mismatch during header analysis.
+
+Conclusion:
+This email is a phishing attempt that uses spoofing, misleading URLs, and malicious attachments.
